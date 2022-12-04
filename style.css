@@ -37,6 +37,7 @@ a{
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
+  gap: 1rem;
 }
 
 .card {
@@ -45,7 +46,7 @@ a{
   height: 300px;
   border-radius: 10px;
   background-color: #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease;
   cursor: pointer;
   overflow: hidden;
